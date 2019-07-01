@@ -39,7 +39,7 @@ public class SearchDialogFragment<T> extends DialogFragment {
     private int tag;
     private String TITLE;
     private SearchInterface searchInterface;
-    private ArrayList<T> commonList;
+    private ArrayList<T> searchList;
     private RecyclerView recyclerViewSearch;
     private TextView tvSearchTitle;
     private EditText edtSearchItem;
@@ -90,15 +90,15 @@ public class SearchDialogFragment<T> extends DialogFragment {
         tvSearchTitle = (TextView) view.findViewById(R.id.tvSearchTitle);
         tvSearchTitle.setText(TITLE);
 
-        commonList = new ArrayList<>();
-        commonList = (ArrayList<T>) bundle.getParcelableArrayList(KEY_SEARCH_LIST);
+        searchList = new ArrayList<>();
+        searchList = (ArrayList<T>) bundle.getParcelableArrayList(KEY_SEARCH_LIST);
 
 
-        searchSpinnerAdapter = new SearchSpinnerAdapter(commonList, searchInterface, tag);
+        searchSpinnerAdapter = new SearchSpinnerAdapter(searchList, searchInterface, tag);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getActivity());
         recyclerViewSearch.setLayoutManager(layoutManager);
         recyclerViewSearch.setAdapter(searchSpinnerAdapter);
-        Log.d(TAG, "onViewCreated: " + commonList);
+        Log.d(TAG, "onViewCreated: " + searchList);
 
         edtSearchItem.addTextChangedListener(new TextWatcher() {
             @Override
