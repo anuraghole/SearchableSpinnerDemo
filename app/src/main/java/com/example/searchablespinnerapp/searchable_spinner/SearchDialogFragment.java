@@ -1,4 +1,4 @@
-package com.example.searchablespinnerapp.search_utils;
+package com.example.searchablespinnerapp.searchable_spinner;
 
 import android.graphics.Point;
 import android.os.Bundle;

@@ -6,8 +6,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.searchablespinnerapp.search_utils.SearchDialogFragment;
-import com.example.searchablespinnerapp.search_utils.SearchInterface;
+import com.example.searchablespinnerapp.searchable_spinner.SearchDialogFragment;
+import com.example.searchablespinnerapp.searchable_spinner.SearchInterface;
 
 import java.util.ArrayList;
 

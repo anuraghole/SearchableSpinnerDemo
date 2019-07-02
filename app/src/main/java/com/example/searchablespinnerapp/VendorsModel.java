@@ -3,7 +3,7 @@ package com.example.searchablespinnerapp;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.example.searchablespinnerapp.search_utils.DialogSearchable;
+import com.example.searchablespinnerapp.searchable_spinner.DialogSearchable;
 
 /**
  * Created by Anurag on 29/6/19.

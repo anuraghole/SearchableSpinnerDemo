@@ -1,4 +1,4 @@
-package com.example.searchablespinnerapp.search_utils;
+package com.example.searchablespinnerapp.searchable_spinner;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;

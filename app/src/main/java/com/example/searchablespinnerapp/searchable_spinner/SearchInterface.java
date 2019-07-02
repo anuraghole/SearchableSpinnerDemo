@@ -1,4 +1,4 @@
-package com.example.searchablespinnerapp.search_utils;
+package com.example.searchablespinnerapp.searchable_spinner;
 
 /**
  * Created by Anurag on 28/6/19.

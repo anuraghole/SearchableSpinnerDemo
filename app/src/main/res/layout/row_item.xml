@@ -11,6 +11,6 @@
         style="@style/textViewStyle"/>
     <View
         android:layout_width="match_parent"
-        android:layout_height="1px"
+        android:layout_height="1dp"
         android:background="#E7E5E2" />
 </LinearLayout>
